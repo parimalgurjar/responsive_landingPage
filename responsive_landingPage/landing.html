@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        #main{
+            height: 100vh;
+            width: 100%;
+        }
+        #top{
+            background-image: url("https://seuppcdn01.1x.com/images/user/438fc7db9ae637ccc0e7b1cd87d981ca-hd2.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 60%;
+            width: 100%;
+            position: relative;
+        }
+        #bottom{
+            
+            display: flex;
+            height: 40%;
+        }
+        #bone{
+            width: 25%;
+            background-color: rgb(45, 1, 88);
+            color: white;
+            padding: 1%;
+        }
+        #bone p{
+            font-size: 18px;
+        }
+        #btwo{
+            width: 25%;
+            background-image: url("https://images.unsplash.com/photo-1698871538204-3e2cf1336d4f?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+            background-position: center;
+            background-size: cover;
+        }
+        #bthree{
+            width: 20%;
+            background-color: blue;
+        }
+        #bfour{
+            width: 30%;
+            background-color: rgb(1, 24, 60);
+            color: white;
+            
+        }
+        #text{
+            position: absolute;
+            
+            padding: 0vw 10vw;
+            width: 100%;
+            bottom: 20%;
+        }
+        #text h1{
+            font-size: 6vw;
+            color: white;
+        }
+        #text{
+            display: flex;
+            color: white;
+            align-items: center;
+            
+        }
+        #textright{
+            display: flex;
+            width: 40%;
+            justify-content:space-between;
+            margin-left: 25%;
+            align-items: center;
+
+
+        }
+        #icons i{
+            color:rgb(154, 152, 152);
+            font-size: 1.5vw;
+        }
+        #textright p{
+            width: 40%;
+            
+        }
+        #bthreetop{
+            width: 100%;
+            height: 20vh;
+            background-color: rgb(185, 68, 5);
+            color :white;
+            align-items: center;
+            
+        }
+        #bthreebottom{
+            width: 100%;
+            height: 20vh;
+            background-image: url("https://images.unsplash.com/photo-1694679861915-e06c81b1ca04?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+            background-size: cover;
+            background-position: center;
+        }
+        .notf{
+            display: flex;
+            padding: 1vw 4vw;
+            align-items: center;
+        }
+        .notf #photo{
+            height: 50px;
+            width: 50px;
+            background-image: url("https://images.unsplash.com/photo-1687462310643-e993a3f09102?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+            border-radius: 50%;
+            margin-right: 2.5%;
+            background-size: cover;
+            background-position: top;
+
+        }
+        .notf p{
+
+        width: 80%;
+        }
+        #bfour h2{
+            padding: 1vw 4vw;
+        }
+        #bone p{
+            margin-top: 20px;
+        }
+        #bthreetop h2{
+            
+            margin-bottom: 12px;
+        }
+        #bthreetop h2{
+            padding:1vw 1vw;
+            margin-bottom: -5px;
+        }
+        #bthreetop p{
+            padding: 0vw 1vw;
+        }
+        @media screen and (max-width:500px){
+            #text{
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            #text #textright{
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            #text h1{
+                font-size: 9vw;
+            }
+            #textright{
+                margin-left:0%;
+            }
+            #textright p{
+                width: initial;
+                margin-top: 20px;
+
+            }
+            #icons{
+                align-items: flex-start;
+                margin-top: 20px;
+            }
+            #icons i{
+                font-size: 20px;
+            }
+            #bottom{
+                flex-direction: column;
+            }
+            #bone{
+                width: 100%;
+                padding: 8vw 6vw;
+            }
+            #btwo{
+                width: 100%;
+            }
+            #bthree{
+                width: 100%;
+                flex-direction: column;
+            }
+            #bfour{
+                width: 100%;
+                padding: 5vw 2vw;
+            }
+            #bone p{
+                font-size: 15px;
+                margin-top: 3px;
+                width: 90%;
+            }
+            #bthreetop{
+                display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0vw 5vw;
+  height: 16vh;
+            }
+            #bthreetop p{
+                width: 90%;
+            }
+            #bthreetop h2{
+                margin-bottom: 3px;
+                font-size: 33px;
+            }
+            #bfour h2{
+                font-size: 33px;
+                margin-bottom: 10px;
+        }
+
+        }
+
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="top">
+            <div id="text">
+                <h1>Noise.</h1>
+                <div id="textright">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis beatae asperiores illo dolor?</p>
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis perferendis itaque dolorum.</p>
+                        <div id="icons">
+                            <i class="ri-instagram-fill"></i>
+                            <i class="ri-twitter-fill"></i>
+                            <i class="ri-facebook-fill"></i>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div id="bottom">
+            <div id="bone">
+                <h1>Latest News</h1>
+                <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, numquam? adipisicing elit. Beatae atque sequi minus!</p>
+            </div>
+            <div id="btwo">
+    
+            </div>
+            <div id="bthree">
+                <div id="bthreetop">
+                    <h2>Alerts</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia quod illum natus.</p>
+                </div>
+                <div id="bthreebottom"></div>
+            </div>
+            <div id="bfour">
+                <h2>Latest</h2>
+                <div class="notf">
+                    <div id="photo">
+                      
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="notf">
+                    <div id="photo">
+                      
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
